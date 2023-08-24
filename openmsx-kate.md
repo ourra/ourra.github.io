@@ -48,4 +48,4 @@ Para ello, es necesario configurar algunas cosas que se explican a continuación
 8. Seleccionar _Barra de herramientas principal <externaltools>_, seleccionar la que hemos creado en el paso 5 (_Lanzar OpenMSX) y pasarla de _Acciones disponibles_ a _Acciones actuales_
 9. Pulsar el botón de _Aceptar_ para cerrar las ventanas.
 
-Si todo ha ido bien, a partir de ahora cada vez que presionemos el botón de _Lanzar OpenMSX_, el fichero en BASIC que estemos editando se ejecutará inmediatamente en el emulador y podremos ver si funciona correctamente o si tiene algún error como el temido _Syntax Error_. Cuando lo hayamos terminado de comprobarlo, se puede cerrar la ventana del OpenMSX y seguir trabajando en el fichero que teníamos abierto en Kate.
+Si todo ha ido bien, a partir de ahora cada vez que presionemos el botón de _Lanzar OpenMSX_, el fichero en BASIC que estemos editando se ejecutará inmediatamente en el emulador y podremos ver si funciona correctamente o si tiene algún error como el temido _Syntax error_. Cuando lo hayamos terminado de comprobarlo, se puede cerrar la ventana del OpenMSX y seguir trabajando en el fichero que teníamos abierto en Kate.
