@@ -1,4 +1,6 @@
 # ourra.github.io
 
-Prueba
+Página sobre cosas relacionadas con el MSX.
+
+
 
