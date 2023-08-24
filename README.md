@@ -1,6 +1,12 @@
 # ourra.github.io
 
-Página sobre cosas relacionadas con el MSX.
+Mi (humilde) página sobre cosas relacionadas con el MSX.
+Espero ir añadiendo cosas poco a poco.
+
+* [Ejecutar OpenMSX desde el editor Kate](openmsx-kate.md)
+
+
+
 
 
 
