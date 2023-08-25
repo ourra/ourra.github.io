@@ -3,7 +3,7 @@ Cómo ejecutar openMSX desde el editor Kate
 
 [Kate](https://kate-editor.org) es un editor de texto ligero que viene con el entorno de escritorio [KDE](https://kde.org) de Linux, y que está disponible tanto para esta plataforma como para Windows y Mac.
 
-Se puede utilizar para desarrollar proyectos de software, ya que cuenta con las funcionaliades apropiadas para ello como son el resaltado de sintaxis, explorador de objetos del código, posibilidad de lanzar compiladores, o la integración con Git. En este sentido no se diferencia mucho de otros editores como Sublime, o VS Code.
+Se puede utilizar para desarrollar proyectos de software, ya que cuenta con las funcionalidades apropiadas para ello como son el resaltado de sintaxis, explorador de objetos del código, posibilidad de lanzar compiladores, o la integración con Git. En este sentido no se diferencia mucho de otros editores como Sublime, o VS Code.
 
 En mi próximo proyecto en MSX BASIC voy a utilizarlo para escribir en él el código y ejecutarlo directamente en el emulador [openMSX](https://openmsx.org).
 
@@ -20,7 +20,7 @@ Para ello, es necesario configurar algunas cosas que se explican a continuación
 
    cp $fich AUTOEXEC.BAS
    
-   # Convertir retornos de carro a formato de DOS
+   ## Convertir retornos de carro a formato de DOS
    todos AUTOEXEC.BAS
 
    # Fichero TCL para configurar openMSX
@@ -39,7 +39,7 @@ Para ello, es necesario configurar algunas cosas que se explican a continuación
 5. Se abrirá una ventana con varios campos para rellenar. Configurar los siguientes:
   * **Nombre**: _Lanzar openMSX_    (o lo que queramos; es lo que se mostrará en un botón de la barra de herramientas)
   * **Ejecutable**: Seleccionar el script que hemos creado en el paso 1
-  * **Argumentos**: Escribir lo siguiente: `%{Document:FilePath}`
+  * **Argumentos**: Escribir lo siguiente: `{Document:FilePath}`
   * **Guardar**: Elegir _Documento actual_
   * El resto de opciones pueden dejarse en blanco o como están por defecto.
 6. Pulsar el botón de _Aceptar_ para cerrar las ventanas.
