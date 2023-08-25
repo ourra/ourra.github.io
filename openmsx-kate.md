@@ -38,7 +38,7 @@ Para ello, es necesario configurar algunas cosas que se explican a continuación
 6. Se abrirá una ventana con varios campos para rellenar. Configurar los siguientes:
   * **Nombre**: _Lanzar openMSX_    (o lo que queramos; es lo que se mostrará en un botón de la barra de herramientas)
   * **Ejecutable**: Seleccionar el script que hemos creado en el paso 1
-  * **Argumentos**: Escribir lo siguiente: `{Document:FilePath}`
+  * **Argumentos**: Escribir lo siguiente: `%{Document:FilePath}`  (el '%' es importante)
   * **Guardar**: Elegir _Documento actual_
   * El resto de opciones pueden dejarse en blanco o como están por defecto.
 6. Pulsar el botón de _Aceptar_ para cerrar las ventanas.
