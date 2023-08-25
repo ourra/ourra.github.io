@@ -1,7 +1,7 @@
 Cómo ejecutar openMSX desde el editor Kate
 ==========================================
 
-[Kate](https://kate-editor.org) es un editor de texto ligero que viene con el entorno de escritorio [KDE](https://kde.org) de Linux, y que está disponible tanto para esta plataforma como para Windows y Mac.
+[Kate](https://kate-editor.org) es un editor de texto ligero que viene con el entorno de escritorio [KDE](https://kde.org) de Linux, y que está disponible tanto para esa plataforma como para Windows y Mac.
 
 Se puede utilizar para desarrollar proyectos de software, ya que cuenta con las funcionalidades apropiadas para ello como son el resaltado de sintaxis, explorador de objetos del código, posibilidad de lanzar compiladores, o la integración con Git. En este sentido no se diferencia mucho de otros editores como Sublime, o VS Code.
 
