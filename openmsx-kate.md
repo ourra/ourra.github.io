@@ -17,7 +17,9 @@ Para ello, es necesario configurar algunas cosas que se explican a continuación
    fich="$1"
 
    midir=$(dirname $fich)
+   
    cp $fich AUTOEXEC.BAS
+   
    todos AUTOEXEC.BAS      
 
    echo "                  
