@@ -17,20 +17,15 @@ Para ello, es necesario configurar algunas cosas que se explican a continuación
    fich="$1"
 
    midir=$(dirname $fich)
-
    cp $fich AUTOEXEC.BAS
-   
-   #! Convertir retornos de carro a formato de DOS
-   todos AUTOEXEC.BAS
+   todos AUTOEXEC.BAS      # Convertir retornos de carro a formato de DOS
 
-   #! Fichero TCL para configurar openMSX
-   echo "
+   echo "                  # Fichero TCL para configurar openMSX
      set throttle off     
      after realtime 0.25 \"set throttle on\"
    " > start.tcl
 
-   #! Ejecutar openMSX
-   openmsx -diska $midir -script start.tcl
+   openmsx -diska $midir -script start.tcl   # Ejecutar openMSX
 
 2. A grandes rasgos, el script lee como parámetro un nombre de fichero que le pasa Kate (por ejemplo un programa en BASIC), lo copia con el nombre de AUTOEXEC.BAS y lo convierte a formato DOS con la utilidad `todos` (del paquete [tofrodos](https://repology.org/project/tofrodos), que deberá estar instalado en el sistema Linux). A continuación crea un fichero TCL para configurar openMSX de forma que se ejecute a la máxima velocidad durante 0.25 segundos y luego vuelva a la velocidad normal (es posible que tengas que ajustar manualmente este valor según tus preferencias). Finalmente ejecuta el openMSX indicando que monte como disco el directorio donde está nuestro programa y que se configure según el fichero TCL.
    
